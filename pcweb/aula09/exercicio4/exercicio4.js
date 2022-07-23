@@ -9,7 +9,7 @@ function notas(dinheiro) {
             }
             dinheiro -= i * nota;
         }
-        document.write(total);
+        document.getElementById("imprimir").value = total;
     } else {
         let vetor = [100, 50, 20, 10, 5, 2];
         for (let nota of vetor) {
